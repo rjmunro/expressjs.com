@@ -63,7 +63,7 @@ app.all('/secret', function (req, res, next) {
 Route paths, in combination with a request method, define the endpoints at which requests can be made. Route paths can be strings, string patterns, or regular expressions.
 
 <div class="doc-box doc-info" markdown="1">
-  Express uses [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) for matching the route paths; see the path-to-regexp documentation for all the possibilities in defining route paths. [Express Route Tester](http://forbeslindesay.github.io/express-route-tester/) is a handy tool for testing basic Express routes, although it does not support pattern matching.
+  Express uses [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) for matching the route paths; see the path-to-regexp documentation for all the possibilities in defining route paths. [Express Route Tester](https://wesleytodd.github.io/express-route-tester/) is a handy tool for testing basic Express routes, although it does not support pattern matching.
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

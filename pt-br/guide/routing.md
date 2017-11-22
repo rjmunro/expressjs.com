@@ -90,7 +90,7 @@ expressões regulares.
 <div class="doc-box doc-info" markdown="1">
   O Express usa o [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) para verificar a correspondência de caminhos de rota; consulte a
 documentação do path-to-regexp para obter todas as possibilidades nas definições de caminhos de rota. O [Express
-Route Tester](http://forbeslindesay.github.io/express-route-tester/) é uma ferramenta útil para testar rotas básicas do Express, apesar de não suportar a correspondência de padrões.
+Route Tester](https://wesleytodd.github.io/express-route-tester/) é uma ferramenta útil para testar rotas básicas do Express, apesar de não suportar a correspondência de padrões.
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

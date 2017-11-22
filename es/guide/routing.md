@@ -68,7 +68,7 @@ app.all('/secret', function (req, res, next) {
 Las vías de acceso de ruta, en combinación con un método de solicitud, definen los puntos finales en los que pueden realizarse las solicitudes. Las vías de acceso de ruta pueden ser series, patrones de serie o expresiones regulares.
 
 <div class="doc-box doc-info" markdown="1">
-  Express utiliza [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) para correlacionar las vías de acceso de ruta; consulte la documentación de path-to-regexp para ver todas las posibilidades para definir vías de acceso de ruta. [Express Route Tester](http://forbeslindesay.github.io/express-route-tester/) es una herramienta muy útil para probar rutas básicas de Express, aunque no da soporte a la coincidencia de patrones.
+  Express utiliza [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) para correlacionar las vías de acceso de ruta; consulte la documentación de path-to-regexp para ver todas las posibilidades para definir vías de acceso de ruta. [Express Route Tester](https://wesleytodd.github.io/express-route-tester/) es una herramienta muy útil para probar rutas básicas de Express, aunque no da soporte a la coincidencia de patrones.
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

@@ -70,7 +70,7 @@ app.all('/secret', function (req, res, next) {
 パス文字列でドル文字（`$`）を使用する必要がある場合は、`([`と`])`の中にエスケープして囲みます。たとえば、"/data/$book"でのリクエストのパス文字列は"`/data /([\$])book`"となります。
 
 <div class="doc-box doc-info" markdown="1">
-Express は、ルート・パスのマッチングに [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) を使用します。ルート・パスの定義におけるすべての可能性については、path-to-regexp 資料を参照してください。[Express Route Tester](http://forbeslindesay.github.io/express-route-tester/) は、パターン・マッチングをサポートしていませんが、基本的な Express ルートをテストするための便利なツールです。
+Express は、ルート・パスのマッチングに [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) を使用します。ルート・パスの定義におけるすべての可能性については、path-to-regexp 資料を参照してください。[Express Route Tester](https://wesleytodd.github.io/express-route-tester/) は、パターン・マッチングをサポートしていませんが、基本的な Express ルートをテストするための便利なツールです。
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

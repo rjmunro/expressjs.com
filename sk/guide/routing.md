@@ -72,7 +72,7 @@ app.all('/secret', function (req, res, next) {
 Route cesty (route paths) definujú v kombinácii s request metódami koncové body, voči ktorým je možné vykonať request. Route cesty je možné definovať ako stringy, stringové patterny, alebo ako regulárne výrazy.
 
 <div class="doc-box doc-info" markdown="1">
-  Express používa pre spárovanie (matching) route cesty npm modul [path-to-regexp](https://www.npmjs.com/package/path-to-regexp); pre všetky možnosti definície route ciest si pozrite dokumentáciu k path-to-regexp modulu. [Express Route Tester](http://forbeslindesay.github.io/express-route-tester/) je užitočný nástroj pre testovanie základných Express route ciest, hoci nepodporuje pattern matching.
+  Express používa pre spárovanie (matching) route cesty npm modul [path-to-regexp](https://www.npmjs.com/package/path-to-regexp); pre všetky možnosti definície route ciest si pozrite dokumentáciu k path-to-regexp modulu. [Express Route Tester](https://wesleytodd.github.io/express-route-tester/) je užitočný nástroj pre testovanie základných Express route ciest, hoci nepodporuje pattern matching.
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

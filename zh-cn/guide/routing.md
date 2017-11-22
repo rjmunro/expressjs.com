@@ -68,7 +68,7 @@ app.all('/secret', function (req, res, next) {
 路由路径与请求方法相结合，用于定义可以在其中提出请求的端点。路由路径可以是字符串、字符串模式或正则表达式。
 
 <div class="doc-box doc-info" markdown="1">
-Express 使用 [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) 来匹配路由路径；请参阅 path-to-regexp 文档以了解定义路由路径时所有的可能性。[Express Route Tester](http://forbeslindesay.github.io/express-route-tester/) 是用于测试基本 Express 路由的便捷工具，但是它不支持模式匹配。
+Express 使用 [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) 来匹配路由路径；请参阅 path-to-regexp 文档以了解定义路由路径时所有的可能性。[Express Route Tester](https://wesleytodd.github.io/express-route-tester/) 是用于测试基本 Express 路由的便捷工具，但是它不支持模式匹配。
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

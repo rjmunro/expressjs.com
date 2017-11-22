@@ -69,7 +69,7 @@ app.all('/secret', function (req, res, next) {
 I percorsi di route, in combinazione con un metodo di richiesta, definiscono gli endpoint a cui possono essere rivolte richieste. I percorsi di route possono essere stringhe, modelli di stringa o espressioni regolari.
 
 <div class="doc-box doc-info" markdown="1">
-  Express utilizza [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) per la corrispondenza dei percorsi di route; consultare la documentazione relativa a path-to-regexp per tutte le possibilità di definizione di percorsi di route. [Express Route Tester](http://forbeslindesay.github.io/express-route-tester/) è uno strumento utile per il test delle route Express di base, anche se non supporta la corrispondenza di modelli.
+  Express utilizza [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) per la corrispondenza dei percorsi di route; consultare la documentazione relativa a path-to-regexp per tutte le possibilità di definizione di percorsi di route. [Express Route Tester](https://wesleytodd.github.io/express-route-tester/) è uno strumento utile per il test delle route Express di base, anche se non supporta la corrispondenza di modelli.
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

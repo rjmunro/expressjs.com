@@ -69,7 +69,7 @@ app.all('/secret', function (req, res, next) {
 라우트 경로는, 요청 메소드와의 조합을 통해, 요청이 이루어질 수 있는 엔드포인트를 정의합니다. 라우트 경로는 문자열, 문자열 패턴 또는 정규식일 수 있습니다.
 
 <div class="doc-box doc-info" markdown="1">
-  Express는 라우트 경로의 일치를 위해 [path-to-regexp](https://www.npmjs.com/package/path-to-regexp)를 사용합니다. 라우트 경로를 정의할 수 있는 모든 가능성을 확인하려면 path-to-regexp 문서를 참조하십시오. [Express Route Tester](http://forbeslindesay.github.io/express-route-tester/)는 기본적인 Express 라우트의 테스트를 위한 편리한 도구이지만, 패턴 일치는 지원하지 않습니다.
+  Express는 라우트 경로의 일치를 위해 [path-to-regexp](https://www.npmjs.com/package/path-to-regexp)를 사용합니다. 라우트 경로를 정의할 수 있는 모든 가능성을 확인하려면 path-to-regexp 문서를 참조하십시오. [Express Route Tester](https://wesleytodd.github.io/express-route-tester/)는 기본적인 Express 라우트의 테스트를 위한 편리한 도구이지만, 패턴 일치는 지원하지 않습니다.
 </div>
 
 <div class="doc-box doc-warn" markdown="1">

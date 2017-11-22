@@ -69,7 +69,7 @@ app.all('/secret', function (req, res, next) {
 當路由路徑配上要求方法時，即定義了發出要求時的目標端點。路由路徑可以是字串、字串型樣或正規表示式。
 
 <div class="doc-box doc-info" markdown="1">
-  Express 使用 [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) 來找出相符的路由路徑；請參閱 path-to-regexp 說明文件，取得可用來定義路由路徑的所有可行方法。[Express Route Tester](http://forbeslindesay.github.io/express-route-tester/) 是一個用來測試 Express 基本路由的方便工具，只不過它不支援型樣相符。
+  Express 使用 [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) 來找出相符的路由路徑；請參閱 path-to-regexp 說明文件，取得可用來定義路由路徑的所有可行方法。[Express Route Tester](https://wesleytodd.github.io/express-route-tester/) 是一個用來測試 Express 基本路由的方便工具，只不過它不支援型樣相符。
 </div>
 
 <div class="doc-box doc-warn" markdown="1">
